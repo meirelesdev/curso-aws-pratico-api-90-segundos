@@ -1,15 +1,30 @@
-# Curso AWS Prático
+﻿# Curso Aws Pratico Api 90 Segundos
 
-Este repositório é o resultado da aula 5 do curso de AWS na Prática do canal [Um Inventor Qualquer](https://www.youtube.com/c/UmInventorQualquer)
-no YouTube.
+> API criada durante o curso de AWS Pratico em 90 segundos. Demonstra deploy de aplicacao Node.js/TypeScript na infraestrutura da AWS com Docker.
 
-Para aprender como executar esse ambiente em seu computador, acesse a documentação do [Docker](docs/docker.md). 
+## Stack
 
-## Documentação
-- [Docker](docs/docker.md)
-- [API](docs/api.md)
+- Docker
 
-## Criando uma API em 90 segundos
-Assista nosso vídeo no YouTube para ver passo a passo como utilizar esse repositório.
+## Prerequisitos
 
-[Criando uma API em 90 segundos](https://youtu.be/bU4M9tZhsTs)
+- Docker e Docker Compose
+
+## Como executar
+
+```bash
+# Clone o repositorio
+git clone https://github.com/meirelesdev/curso-aws-pratico-api-90-segundos.git
+cd curso-aws-pratico-api-90-segundos
+
+# Inicie a aplicacao
+docker-compose up -d
+```
+
+## Licenca
+
+Este projeto esta sob a licenca MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+Desenvolvido por [meirelesdev](https://github.com/meirelesdev/curso-aws-pratico-api-90-segundos)
